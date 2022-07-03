@@ -23,7 +23,6 @@ namespace _2022_dodgelevel2_1_
         }
         public void MovePlanet()
         {
-            y += 5;
 
             planetRec.Location = new Point(x, y);
         }
